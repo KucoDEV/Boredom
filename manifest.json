@@ -1,0 +1,22 @@
+{
+    "name": "Boredom",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "KucoDEV",
+    "description": "Cette extension vous affiche une liste de site à utiliser en cas d'ennuie.",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "action": {
+        "default_title": "Boredom",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    }
+}
